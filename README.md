@@ -1,11 +1,11 @@
-# VibAnalyzer (振动、信号分析系统)
+# VibSignalAnalyzer (振动、信号分析系统)
 
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 项目简介
 
-VibAnalyzer 是一个全面的振动、信号分析工具包，用于实现振动、信号的时域、频域和时频域分析。本项目支持多种信号变换方法的对比分析，包括傅立叶变换、小波变换和希尔伯特-黄变换等。
+VibSignalAnalyzer 是一个全面的振动、信号分析工具包，用于实现振动、信号的时域、频域和时频域分析。本项目支持多种信号变换方法的对比分析，包括傅立叶变换、小波变换和希尔伯特-黄变换等。
 
 ### 主要特性
 
@@ -35,8 +35,8 @@ VibAnalyzer 是一个全面的振动、信号分析工具包，用于实现振�
 
 1. 克隆仓库：
 ```bash
-git clone https://github.com/yourusername/VibAnalyzer.git
-cd VibAnalyzer
+git clone https://github.com/yourusername/VibSignalAnalyzer.git
+cd VibSignalAnalyzer
 ```
 
 2. 运行安装脚本：
@@ -59,7 +59,7 @@ jupyter notebook notebooks/signal_analysis_demo.ipynb
 ## 项目结构
 
 ```
-VibAnalyzer/
+VibSignalAnalyzer/
 ├── src/                    # 源代码
 │   ├── time_domain.py      # 时域分析模块
 │   └── frequency_domain.py # 频域分析模块
