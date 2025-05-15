@@ -35,7 +35,7 @@ VibSignalAnalyzer 是一个全面的振动、信号分析工具包，用于实�
 
 1. 克隆仓库：
 ```bash
-git clone https://github.com/yourusername/VibSignalAnalyzer.git
+git clone https://github.com/Linguage/VibSignalAnalyzer.git
 cd VibSignalAnalyzer
 ```
 
