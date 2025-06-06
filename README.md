@@ -9,19 +9,19 @@ VibSignalAnalyzer 是一个全面的振动、信号分析工具包，用于实�
 
 ### 主要特性
 
-- 🌊 支持多种信号生成和采集
-  - 合成信号生成（正弦、啁啾、脉冲等）
+- 🌊 支持多种信号生成和采集  
+  - 合成信号生成（正弦、啁啾、脉冲等）  
   - 实际振动、信号采集与处理
 
-- 📊 丰富的分析功能
-  - 时域分析（统计特征、波形分析）
-  - 频域分析（FFT、功率谱）
-  - 时频分析（小波变换）
+- 📊 丰富的分析功能  
+  - 时域分析（统计特征、波形分析）  
+  - 频域分析（FFT、功率谱）  
+  - 时频分析（小波变换）  
   - 非线性分析（希尔伯特-黄变换）
 
-- 📈 可视化与结果对比
-  - 多种可视化方式
-  - 算法性能对比
+- 📈 可视化与结果对比  
+  - 多种可视化方式  
+  - 算法性能对比  
   - 结果导出功能
 
 ## 快速开始
@@ -29,50 +29,54 @@ VibSignalAnalyzer 是一个全面的振动、信号分析工具包，用于实�
 ### 环境要求
 
 - Python 3.12 或更高版本
-- 相关依赖包（见 requirements.txt）
+- 相关依赖包（见 `requirements.txt`）
 
 ### 安装步骤
 
 1. 克隆仓库：
-```bash
-git clone https://github.com/Linguage/VibSignalAnalyzer.git
-cd VibSignalAnalyzer
-```
+
+    ```bash
+    git clone https://github.com/Linguage/VibSignalAnalyzer.git
+    cd VibSignalAnalyzer
+    ```
 
 2. 运行安装脚本：
-```bash
-./scripts/setup_env.sh
-```
+
+    ```bash
+    ./scripts/setup_env.sh
+    ```
 
 ### 使用示例
 
 1. 生成并分析合成信号：
-```bash
-python examples/generate_synthetic_signals.py
-```
 
-2. 使用交互式notebook进行分析：
-```bash
-jupyter notebook notebooks/signal_analysis_demo.ipynb
-```
+    ```bash
+    python examples/generate_synthetic_signals.py
+    ```
+
+2. 使用交互式 notebook 进行分析：
+
+    ```bash
+    jupyter notebook notebooks/signal_analysis_demo.ipynb
+    ```
 
 ## 项目结构
 
-```
+```text
 VibSignalAnalyzer/
 ├── src/                    # 源代码
 │   ├── time_domain.py      # 时域分析模块
 │   └── frequency_domain.py # 频域分析模块
 ├── examples/               # 示例程序
-├── notebooks/             # Jupyter notebooks
-├── data/                  # 数据目录
-├── results/               # 结果输出
-└── docs/                  # 文档
+├── notebooks/              # Jupyter notebooks
+├── data/                   # 数据目录
+├── results/                # 结果输出
+└── docs/                   # 文档
 ```
 
 ## 文档
 
-详细的使用说明和API文档请参考 [docs/phase1_guide.md](docs/phase1_guide.md)。
+详细的使用说明和 API 文档请参考 [docs/phase1_guide.md](docs/phase1_guide.md)。
 
 ## 开发计划
 
